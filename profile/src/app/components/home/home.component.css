@@ -1,9 +1,6 @@
 html {
     background-image: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
 }
-body {
-    margin: 0px;
-}
 
 .title-container {
     display: flex;
@@ -12,23 +9,26 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0px 0px 0px 140px;
-    font-family: 'Cabin', sans-serif;
     background-image: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
     background-size: cover;
 }
 
 h1 {
     color: white;
-    font-size: 65px;
+    font-size: 85px;
+    font-family: 'Dr Sugiyama', cursive;
+    margin-bottom: 15px;
 }
 
 h2 {
     color: white;
-    font-size: 30px;
+    font-size: 27px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 80px;
 }
 
 button {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin-top: 50px;
     font-size: 20px;
     padding: 5px 10px;

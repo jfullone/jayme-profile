@@ -8,19 +8,19 @@
 }
 
 h1 {
-    font-family: 'Cabin', sans-serif;
-    margin-bottom: 100px;
+    font-family: 'Dr Sugiyama', cursive;
+    margin-bottom: 70px;
     color: #164A41;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 p {
     padding: 0px 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 button {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin-top: 70px;
     font-size: 20px;
     padding: 5px 10px;
