@@ -1,5 +1,7 @@
-html {
-    background-image: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+.home-container {
+    background: url("src/assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
 }
 
 .title-container {
@@ -9,12 +11,10 @@ html {
     justify-content: center;
     height: 100vh;
     margin: 0px 0px 0px 140px;
-    background-image: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
-    background-size: cover;
 }
 
 h1 {
-    color: white;
+    color:  rgb(46, 2, 59);
     font-size: 85px;
     font-family: 'Dr Sugiyama', cursive;
     margin-bottom: 15px;
@@ -33,9 +33,9 @@ button {
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #F1B24A;
-    border: 1px solid #F1B24A;
-    background-color: #164A41;
+    color:  rgb(46, 2, 59);
+    border: 1px solid  rgb(46, 2, 59);
+    background-color: rgb(25, 143, 123, .5);
     cursor: pointer;
 }
 
