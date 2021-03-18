@@ -20,3 +20,27 @@
     ><i class="fas fa-envelope"></i
   ></a>
 </div>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="dropdown">
+      <button (click)="toggleMenu()" class="dropbtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content" *ngIf="hamburgerNav">
+        <a routerLink="/home" routerLinkActive="active" alt="home"
+          >Home</a>
+        <a
+          routerLink="/about"
+          routerLinkActive="active"
+          alt="about-me"
+          >About Me</a
+        >
+        <a routerLink="/projects" routerLinkActive="active" alt="projects"
+          >Projects</a
+        >
+        <a routerLink="/contact" routerLinkActive="active" alt="contact">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</nav>

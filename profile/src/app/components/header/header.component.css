@@ -22,3 +22,51 @@
 .sidenav a:hover{
     color: #ffffff;
 }
+
+nav {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right:0;
+        margin: 15px;
+    }
+
+    .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(25, 143, 123, .9);
+        position: absolute;
+        min-width: 160px;
+        right: 0;
+    }
+
+    i {
+        font-size: 38px;
+        color: rgb(46, 2, 59);
+    }
+
+    button {
+        background-color: rgb(255, 255, 255, .5);
+        border: none;
+        padding: 8px;
+        border-radius: 4px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px;
+        font-family: "Roboto Slab", serif;
+        color: rgb(46, 2, 59);
+    }
+
+}

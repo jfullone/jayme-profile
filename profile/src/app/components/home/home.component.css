@@ -24,12 +24,12 @@ h2 {
     color: white;
     font-size: 27px;
     font-family: 'Roboto Slab', serif;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 button {
     font-family: 'Roboto Slab', serif;
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -42,4 +42,21 @@ button {
 button:hover {
     color: white;
     border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-container {
+        margin: 0px
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
