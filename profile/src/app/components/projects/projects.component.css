@@ -60,7 +60,7 @@
 .title {
   text-align: center;
   font-family: "Roboto Slab", serif;
-  font-size: 29px;
+  font-size: 31px;
   padding: 12px;
 }
 
@@ -92,10 +92,6 @@
 
 .github-button:hover {
   color: white;
-}
-
-.github-button:active {
-  color: rgb(46, 2, 59);
 }
 
 .website-link:hover {
