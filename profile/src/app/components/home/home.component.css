@@ -15,14 +15,14 @@
 
 h1 {
     color:  rgb(46, 2, 59);
-    font-size: 85px;
+    font-size: 100px;
     font-family: 'Dr Sugiyama', cursive;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 h2 {
     color: white;
-    font-size: 27px;
+    font-size: 32px;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 50px;
 }
@@ -58,5 +58,10 @@ button:hover {
 
     h1 {
         text-align: center;
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 }

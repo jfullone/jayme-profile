@@ -23,7 +23,6 @@
 .project {
   height: 300px;
   width: 200px;
-  border: 1px solid lightgrey;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,8 +59,9 @@
 .title {
   text-align: center;
   font-family: "Roboto Slab", serif;
-  font-size: 31px;
+  font-size: 33px;
   padding: 12px;
+  margin-bottom: 0px;
 }
 
 .arrow {
@@ -81,17 +81,16 @@
 
 .github-button {
   border: none;
-  background-color: rgb(255, 255, 255, .5);
+  background-color: transparent;
   font-size: 30px;
   margin-bottom: 10px;
   color: rgb(46, 2, 59);
   cursor: pointer;
   padding: 0px;
-  border-radius: 50%;
 }
 
 .github-button:hover {
-  color: white;
+  color: rgb(25, 143, 123);
 }
 
 .website-link:hover {
